@@ -1,0 +1,44 @@
+{
+  "name": "twilio-credential-discovery",
+  "version": "0.0.1",
+  "description": "A Twilio SDK wrapper that tries to discover credentials.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project ."
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChaseWagoner/twilio-credential-discovery.git"
+  },
+  "keywords": [
+    "twilio",
+    "TWILIO_ACCOUNT_SID",
+    "ACCOUNT_SID",
+    "accountSid",
+    "TWILIO_AUTH_TOKEN",
+    "AUTH_TOKEN",
+    "authToken"
+  ],
+  "author": {
+    "name": "Chase Wagoner",
+    "url": "https://github.com/ChaseWagoner"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaseWagoner/twilio-credential-discovery/issues"
+  },
+  "homepage": "https://github.com/ChaseWagoner/twilio-credential-discovery#readme",
+  "devDependencies": {
+    "twilio": "^3.48.0",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "twilio": ">= 3.x < 4"
+  },
+  "dependencies": {
+    "winston": "^3.3.3"
+  }
+}
